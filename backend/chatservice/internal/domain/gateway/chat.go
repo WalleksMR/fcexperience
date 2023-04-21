@@ -3,7 +3,7 @@ package gateway
 import (
 	"context"
 
-	"github.com/walleksmr/fcexperience/api/chatservice/internal/domain/entity"
+	"github.com/walleksmr/fcexperience/backend/chatservice/internal/domain/entity"
 )
 
 type ChatGateway interface {

@@ -6,11 +6,11 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/sashabaranov/go-openai"
-	"github.com/walleksmr/fcexperience/api/chatservice/configs"
-	"github.com/walleksmr/fcexperience/api/chatservice/internal/domain/use-cases/chatcompletion"
-	"github.com/walleksmr/fcexperience/api/chatservice/internal/infra/repository"
-	"github.com/walleksmr/fcexperience/api/chatservice/internal/infra/web"
-	webserver "github.com/walleksmr/fcexperience/api/chatservice/internal/infra/web/web-server"
+	"github.com/walleksmr/fcexperience/backend/chatservice/configs"
+	"github.com/walleksmr/fcexperience/backend/chatservice/internal/domain/use-cases/chatcompletion"
+	"github.com/walleksmr/fcexperience/backend/chatservice/internal/infra/repository"
+	"github.com/walleksmr/fcexperience/backend/chatservice/internal/infra/web"
+	webserver "github.com/walleksmr/fcexperience/backend/chatservice/internal/infra/web/web-server"
 )
 
 func main() {

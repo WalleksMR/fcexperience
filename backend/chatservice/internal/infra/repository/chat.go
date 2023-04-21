@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/walleksmr/fcexperience/api/chatservice/internal/domain/entity"
-	"github.com/walleksmr/fcexperience/api/chatservice/internal/infra/db"
+	"github.com/walleksmr/fcexperience/backend/chatservice/internal/domain/entity"
+	"github.com/walleksmr/fcexperience/backend/chatservice/internal/infra/db"
 )
 
 type ChatRepositoryMySQL struct {

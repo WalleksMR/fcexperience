@@ -1,4 +1,4 @@
-module github.com/walleksmr/fcexperience/api/chatservice
+module github.com/walleksmr/fcexperience/backend/chatservice
 
 go 1.20
 

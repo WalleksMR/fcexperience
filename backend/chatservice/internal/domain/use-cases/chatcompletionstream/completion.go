@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	openai "github.com/sashabaranov/go-openai"
-	"github.com/walleksmr/fcexperience/api/chatservice/internal/domain/entity"
-	"github.com/walleksmr/fcexperience/api/chatservice/internal/domain/gateway"
+	"github.com/walleksmr/fcexperience/backend/chatservice/internal/domain/entity"
+	"github.com/walleksmr/fcexperience/backend/chatservice/internal/domain/gateway"
 )
 
 type ChatCompletionConfigInputDTO struct {
